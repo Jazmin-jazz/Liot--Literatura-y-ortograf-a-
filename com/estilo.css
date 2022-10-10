@@ -1,9 +1,8 @@
-
 .bd-placeholder-img {
     font-size: 7rem;
     text-anchor: middle;
     -webkit-user-select: rgb(0, 0, 0);
-    -moz-user-select: rgb(190, 146, 24);
+    -moz-user-select: rgb(252, 196, 56);
     user-select: rgb(0, 0, 0);
  }
 
@@ -12,20 +11,23 @@
      font-size: 3.5rem;
   }
 }
+.nav-item a {
+    color: rgb(228, 51, 51);
+}
 
 .nav-item {
     color: red;
     user-select: rgb(216, 20, 20);
     padding: 7px;
     font-weight: 10;
-    color: rgb(255, 192, 149);
+    color: rgb(252, 197, 56);
     background-color: #fcc438;
     border-radius: 0px;
     font-family: "Berlin Sans FB";
 }
 .nav-item:hover{
     color: #ff0000;
-    background-color: #e4b643;
+    background-color: #fcc438;
   }
 
 .b-example-divider {
@@ -70,7 +72,7 @@
     bottom: 30px;
     right: 30px;
     padding: 12px 14px;
-    background: #FBCD58;
+    background: #fcc438;
     color: rgb(202, 31, 31);
     border: 10px  white;
     border-radius: 100%;
@@ -83,4 +85,5 @@
     transform: translateY(0);
 
 }
+
 
