@@ -1,0 +1,89 @@
+
+.bd-placeholder-img {
+    font-size: 7rem;
+    text-anchor: middle;
+    -webkit-user-select: rgb(0, 0, 0);
+    -moz-user-select: rgb(252, 196, 56);
+    user-select: rgb(0, 0, 0);
+ }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+  }
+}
+.nav-item a {
+    color: rgb(228, 51, 51);
+}
+
+.nav-item {
+    color: red;
+    user-select: rgb(216, 20, 20);
+    padding: 7px;
+    font-weight: 10;
+    color: rgb(252, 197, 56);
+    background-color: #fcc438;
+    border-radius: 0px;
+    font-family: "Berlin Sans FB";
+}
+.nav-item:hover{
+    color: #ff0000;
+    background-color: #fcc438;
+  }
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 14px;
+    background: #fcc438;
+    color: rgb(202, 31, 31);
+    border: 10px  white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.4s;
+}
+
+.btn-scrolltop-on {
+    transform: translateY(0);
+
+}
+
